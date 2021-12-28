@@ -1,0 +1,92 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 356px;
+  margin: auto;
+}
+
+.icon {
+    width: 15%;
+}
+
+.card {
+    padding: 4em;
+}
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%); 
+}
+.card-2 {
+    background-color: hsl(184, 100%, 22%); 
+}
+.card-3 {
+    background-color: hsl(179, 100%, 13%); 
+}
+
+h1 {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.card-1 .button {
+    color: hsl(31, 77%, 52%);
+}
+.card-2 .button {
+    color: hsl(184, 100%, 22%);
+}
+.card-3 .button {
+    color: hsl(179, 100%, 13%);
+}
+
+.card-1 .button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.card-2 .button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.card-3 .button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+
+@media (min-width:650px){
+    .container {
+        display: flex;
+        width: 900px;
+    }
+    .icon {
+        width: 30%;
+    }
+}
